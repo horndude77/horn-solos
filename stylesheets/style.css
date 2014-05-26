@@ -1,0 +1,65 @@
+@import url("../fonts/fira/fira.css");
+@import url("../fonts/charter/stylesheet.css");
+
+body {
+  /*font-family: "Fira Sans", sans-serif;*/
+  font-family: "charterregular", serif;
+  font-size: 20px;
+  color: #111;
+  margin-left: auto;
+  margin-right: auto;
+  background: #ffffd9;
+  color: #333;
+  width: 100%;
+}
+
+#content {
+  display: block;
+  max-width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#title img {
+  width: 100%;
+}
+
+h2 {
+  padding-top: 20px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+h3 {
+  padding-top: 20px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+h2 + * {
+  padding-top: 0px;
+  margin-top: 12px;
+}
+
+h3 + * {
+  padding-top: 0px;
+  margin-top: 12px;
+}
+
+h1, h2, h3, h4 {
+  font-family: "Fira Sans", sans-serif;
+  color: #363;
+}
+
+a:visited {
+  color: purple;
+  text-decoration: none;
+}
+a:link {
+  color: green;
+  text-decoration: none;
+}
+a:hover {
+  /*color: red;*/
+  text-decoration: underline;
+}
