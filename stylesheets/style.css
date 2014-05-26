@@ -63,3 +63,21 @@ a:hover {
   /*color: red;*/
   text-decoration: underline;
 }
+
+#donationContainer {
+  width: 100%;
+}
+
+.donationSection {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.donationSection :first-child {
+  padding-top: 0px;
+  margin-top: 5px;
+}
